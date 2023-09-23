@@ -1,0 +1,89 @@
+.percentage {
+
+    width: 100px;
+    background-color: aqua;
+}
+.percentage:hover + p{
+visibility: visible;
+}
+p{
+visibility: hidden;
+
+}
+.percentage1{
+
+    width: 100%;
+    height: 20px;
+    background-color:rgb(102, 111, 112);
+    border: 1px solid;
+    margin-top: 20px;
+}
+.flow:hover + .percentage1 .moving{
+
+    width: 25%;
+    height: 20px;
+    transition: all 2s linear;
+}
+.moving{
+    background-color: aqua;
+    transition: all 2s;
+    width: 0;
+}
+.percentage2{
+
+    width: 100%;
+    height: 20px;
+    background-color:rgb(102, 111, 112);
+    border: 1px solid;
+    margin-top: 20px;
+}
+.moving1{
+background-color: aqua;
+width: 0;
+transition: all 4s;
+
+}
+.flow1:hover + .percentage2 .moving1{
+
+    width: 50%;
+    height: 20px;
+}
+.percentage3{
+
+    width: 100%;
+    height: 20px;
+    background-color:rgb(102, 111, 112);
+    border: 1px solid;
+    margin-top: 20px;
+}
+.moving2{
+background-color: aqua;
+width: 0;
+transition: all 6s;
+
+}
+.flow2:hover + .percentage3 .moving2{
+
+    width: 75%;
+    height: 20px;
+}
+.percentage4{
+
+    width: 100%;
+    height: 20px;
+    background-color:rgb(102, 111, 112);
+    border: 1px solid;
+    margin-top: 20px;
+}
+.moving3{
+background-color: aqua;
+width: 0;
+transition: all 8s;
+
+}
+.flow3:hover + .percentage4 .moving3{
+
+    width: 100%;
+    height: 20px;
+}
+
